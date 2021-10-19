@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{FC6EECDD-2E9F-0181-1E8C-4DC2116DC9D7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScriptName.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ScriptName.cs" Line="31" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoronaUnityGame" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ScriptName.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aa4374e5-f6f7-4e6b-952e-e9515c4f7e06" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
