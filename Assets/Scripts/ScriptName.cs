@@ -13,7 +13,7 @@ public class ScriptName : MonoBehaviour
         Debug.Log("This is alooign message");
 
 
-        StartCoroutine(executeSomething());
+        StartCoroutine(executeSomething(timeMillis: 3));
 
         //StartCoroutine("ExecuteSomething");
         //StopCoroutine("ExecuteSomething");
@@ -28,7 +28,7 @@ public class ScriptName : MonoBehaviour
 
 
 
-    IEnumerator executeSomething()
+    IEnumerator executeSomething(float timeMillis)
     {
         yield return new WaitForSeconds(2);
         Debug.Log("WaitForSeconds(2);");
