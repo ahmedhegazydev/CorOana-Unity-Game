@@ -30,16 +30,16 @@ public class ScriptName : MonoBehaviour
 
     IEnumerator executeSomething(float timeMillis)
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(timeMillis);
         Debug.Log("WaitForSeconds(2);");
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(timeMillis);
         Debug.Log("WaitForSeconds(2);");
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(timeMillis);
         Debug.Log("WaitForSeconds(2);");
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(timeMillis);
         Debug.Log("WaitForSeconds(2);");
 
 
