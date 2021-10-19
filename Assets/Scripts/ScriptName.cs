@@ -4,31 +4,48 @@ using UnityEngine;
 
 public class ScriptName : MonoBehaviour
 {
-    public float speed = 5;
 
 
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
+    {
+        print("Ahmed Mohamed ");
+        Debug.Log("This is alooign message");
+
+
+        StartCoroutine(executeSomething());
+
+        //StartCoroutine("ExecuteSomething");
+        //StopCoroutine("ExecuteSomething");
+
+
+    }
+
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    IEnumerator executeSomething()
     {
+        yield return new WaitForSeconds(2);
+        Debug.Log("WaitForSeconds(2);");
 
+        yield return new WaitForSeconds(2);
+        Debug.Log("WaitForSeconds(2);");
 
+        yield return new WaitForSeconds(2);
+        Debug.Log("WaitForSeconds(2);");
 
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
-
-        Vector2 pos = transform.position;
-
-        pos.x += speed * h * Time.deltaTime;
-        pos.y += speed * v * Time.deltaTime;
-
-        transform.position = pos;
+        yield return new WaitForSeconds(2);
+        Debug.Log("WaitForSeconds(2);");
 
 
     }
+
+
+
+
 }
